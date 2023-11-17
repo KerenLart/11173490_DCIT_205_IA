@@ -1,4 +1,4 @@
-# DCIT_205_IA
+# 11173490 DCIT_205_IA
  Lartey Keren Kuma 111734904
  # A brief introduction and the purpose of the website
  The website I am building is the Department of Computer Science of the University of Ghana.
