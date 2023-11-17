@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif ;
+}
+
+
+.headertop{
+    display : flex;
+    justify-content : center;
+    border-style: hidden;
+    border-color:aqua;
+    background-color: #BD9C6C;
+    border-radius:2px;
+    width: 100%;
+    min-width: 100%;
+}
+
+.headertop > div{
+    margin-right: 75px;
+    margin-left: 20px;
+}
+.headertop > div .hover{
+    cursor:pointer;
+}
+.CoursesOverview{
+    display:flex;
+    flex-direction: row;
+
+    
+}
+.text{
+    width:40%;
+    border-radius:5%;
+    background-color: cornsilk;
+    border-style: block;
+    padding: 20px;
+    margin-top: 20px;
+}
+.video{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20%;
+    border-color:blueviolet
+    
+}
