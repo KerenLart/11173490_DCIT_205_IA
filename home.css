@@ -27,18 +27,42 @@ header {
     margin-top: 20px;
 }
 
-.CoursesOverview ::before {
-    background-image: url(https://dcs.ug.edu.gh/img/gallery/PHOTO-2019-03-04-14-45-13%202.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-    opacity: 0.;
-    color: azure;
-    background-color: #0c0a21;
-    background-blend-mode: screen;
-    text-align: center;
-    height: 30%;
+.CoursesOverview {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+
 }
+
+img.coursesoverview-image{
+    border-radius: 20px;
+    object-position: bottom;
+}
+
+.coursesoverview-text{
+    background-color: cornsilk;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.resources{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.resources-text{
+    text-align: center;
+}
+ .resources-image{
+    padding: 20px;
+    border-radius: 10px;
+ }
+
+ img.resources-image{
+    border-radius: 10px;
+ }
 
 .text {
     width: 40%;
@@ -87,7 +111,24 @@ hr {
     word-wrap: break-word;
     text-wrap: wrap;
     border-left: 3px, black;
+    width:25%;
+    padding: 10px;
 
+}
+
+.shortcourse {
+    width: 25%;
+    padding: 10px;
+}
+
+.phd{
+    width: 25%;
+    padding: 10px;
+}
+
+.undergraduate {
+    width: 25%;
+    padding: 10px;
 }
 
 button {
@@ -97,18 +138,30 @@ button {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display:block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
   }
+
+.resources-title{
+    color:#2c2a58 ;
+    text-align: center;
+}
+
+.useful-resource{
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .footer {
     display: flex;
     justify-content: space-between;
     background-color: #2c2a58;
     color: white;
-    border-radius: 5%;
     padding: 20px;
     margin-top: 20px;
     max-width: 100%;
