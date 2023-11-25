@@ -80,7 +80,26 @@ img.coursesoverview-image{
     border-radius: 20%;
     border: 2px solid blueviolet;
 }
-
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color:#2c2a58 ;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color:honeydew;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 hr {
     margin-top: 50px;
 }

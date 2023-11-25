@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.ccna{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    color: #2c2a58;
+    width: 50%;
+}
+
+.madev{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2c2a58;
+    border-radius: 10px;
+    color:cornsilk; 
+    margin-top: 50px;
+    width: 50%;
+}
+
+.webdev{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    color:#2c2a58; 
+    margin-top: 50px;
+    width: 50%;
+}
+
+img.webdev{
+    border-radius: 10px;
+}
+
+.infosecurity{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2c2a58;
+    border-radius: 10px;
+    color:cornsilk; 
+    margin-top: 50px;
+    width: 50%; 
+}
