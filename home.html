@@ -6,61 +6,53 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="stylesheets/home.css">
     </head>
     <body>
-        <div>
-            
-        </div>
-        <div class="logo">
-            <img src="https://dcs.ug.edu.gh/img/comScience_logo.png" alt="logo of department" height="30px" width="200">
-        </div>
-        <div class="headertop">
-                <div><p>Home</p></div>
-                <div><p>About</p></div>
-                <div><p>Catalog</p></div>
-                <div><p><a href="#resources">Resources</a></p></div>
-                <div><p>Events</p></div>
-                <div><p><a href="#contact">Contact Us</a></p></div>
-                <div><p>Student Life</p></div>
-        </div>
-        <script src="" async defer></script>
-        <div class="CoursesOverview">
-            <div class="coursesoverview-text">
+        <header>
+            <img class="logo" src="images/logo.png" alt="logo of department">
+            <nav>
+                <button class="navButton">Home</button>
+                <a href="about.html"><button class="navButton">About</button></a>
+                <a href="#catalog"></a><button class="navButton">Catalog</button></a>
+                <button class="navButton">Resources</button>
+                <button class="navButton">Events</button>
+                <button class="navButton">Contact</button>
+                <button class="navButton">Research</button>
+            </nav>
+        </header>
+        <div class="coursesOverview">
+            <div class="coursesOverview-text">
                 <h1>Your Gateway To World Class Computer Science Education</h1>
                 <p>We offer undergraduate and postgraduate courses, spanning a wide spectrum of professional endevours.</p>
                 <p>Get to know us better. Explore to get to know us better.</p>
-                <button>Explore Here</button>
+                <a href="about.html"></a><button>Explore Here</button></a>
             </div>
-            <div>
-                <img class="coursesoverview-image" src="https://dcs.ug.edu.gh/img/gallery/PHOTO-2019-03-04-14-45-13%202.jpg" width="500">
-
-            </div>
-            
+            <img class="coursesOverview-image" src="images/laptopman.jpg">
         </div>
-        <section >
-            <hr>
-            <div class="title"><p>OUR SKILLED FACULTY HELPS COMPUTER SCIENCE DISCIPLINE</p></div>
+        <hr>
+        <section id="catalog" >
+            <div class="title">
+                <p>OUR SKILLED FACULTY HELPS COMPUTER SCIENCE DISCIPLINE</p>
+            </div>
             
-            <div class="courses">
-
-                <div class="shortcourse">
+            <div  class="courses">
+                <div class="course-item">
                     <h3>Short Courses</h3>
                     <p>Eight weeks intensive certification open to all</p>
                     <button>Learn More</button>
                 </div>
-                <div class="vl"></div>
-                <div class="undergraduate">
+                <div class="course-item">
                     <h3>Undergraduate Programs</h3>
                     <p>A world class Bachelor of Science degree</p>
                     <button>Learn More</button>
                 </div>
-                <div class="mphil">
+                <div class="course-item">
                     <h3>Mphil and Msc Programs</h3>
                     <p>World class graduate education with unique blend of cutting-edge research</p>
                     <button>Learn More</button>
                 </div>
-                <div class="phd">
+                <div class="course-item">
                     <h3>PhD Programs</h3>
                     <p>Our PhDs leads the effort to extend the boundaries of knowledge</p>
                     <button>Learn More</button>
@@ -73,17 +65,17 @@
             </div>
             <div class="resources">
                 <div>
-                    <img class="resources-image" src= "caq.jpg" alt="calender" width="230">
+                    <img class="resources-image" src= "images/caq.jpg" alt="calender">
                     <p class="resources-text"><a href="https://www.ug.edu.gh/academics/calendar">Academic Calender</a></p>
                 </div>
                 <div>
                      
-                     <img class="resources-image" src="library.jpeg" alt="laptop" width="230">
+                     <img class="resources-image" src="images/library.jpeg" alt="laptop">
                      <p class="resources-text"><a href="https://balme.ug.edu.gh/">Libraries</a></p> 
                 </div>
                 <div>
                     
-                    <img class="resources-image" src ="Event.jpg" alt="picture of event board" width="230">
+                    <img class="resources-image" src ="images/Event.jpg" alt="picture of event board" >
                     <p class="resources-text">Upcoming Events</p>
                 </div> 
             </div>   

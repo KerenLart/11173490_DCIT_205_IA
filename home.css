@@ -1,31 +1,40 @@
-body {
-    font-family: Arial, sans-serif;
-    padding: 30px;
+/*respoonsivenes for tablet screen*/
 
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    
 }
-
-header {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
 }
 
 .logo {
-    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+    margin: 20px;
+    object-fit: cover;
 }
 
-.headertop {
+nav{
+    height: 55px;
+    width: 95%;
+    margin: 20px auto;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: #BD9C6C;
-    border-radius: 2px;
-    width: 100%;
-    min-width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 20px;
+    border-radius: 10px;
 }
+
+.navButton{
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    color: #2c2a58;
+}
+
 
 .CoursesOverview {
     display: flex;

@@ -9,37 +9,120 @@
         <link rel="stylesheet" href="event.css">
     </head>
     <body>
-        <div>
-            <h1>Events</h1>
+      <nav>
+        <img class="logo" src="logo.png" alt="university of ghana logo">
+        <div class="navButtons">
+            <button class="navButton">Home</button>
+            <button class="navButton">About</button>
+            <button class="navButton">Contact</button>
         </div>
+        
+        <div class="dropDown">
+            <button class="navButton">Home</button>
+            <button class="navButton">About</button>
+            <button class="navButton">Contact</button>
+        </div>
+      </nav>
+        <div class="heading">
+          <div class="blur"><h1>Events</h1>
+          </div>
+        </div>  
         <div>
             <h2>Upcoming Events</h2>
-            <p>There are no upcoming events for now.</p>
+          
+            <section class="events">
+                <article class="event">
+                  <img src="event1_hackaton.png" alt="Event 1">
+                  <div class="event-details">
+                    <h2>Hackaton Fever</h2>
+                    <p>Date: December 7th, 2023<br/>
+                      Duration:3hrs<br/>Registration: Free
+                      <br/>
+                      Venue: Isser building</p>
+                    <button class="btn-details">Save my seat</button>
+                    <div class="countdown" data-date="2023-11-30T00:00:00"></div>
+                  </div>
+                </article>
+          
+                <article class="event">
+                  <img src="event2tap_into_tech.webp" alt="Tap into tech event logo">
+                  <div class="event-details">
+                    <h2>Tap into Tech</h2>
+                    <p>Date: December 13th, 2023<br/>
+                      Duration:1hr<br/>Registration: Free<br/>
+                      Venue: GCB building</p>
+                    <button class="btn-details">Save my seat</button>
+                    <div class="countdown" data-date="2023-11-30T00:00:00"></div>
+                  </div>
+                </article>
+          
+                
         </div>
         <div> 
             <h2>Past Events</h2>
-            <div>
-               <img src="event1.jpeg" width="230" >
-               <h3>Online Short Courses</h3>
-               <p>20th August, 2020</p>
-               <p>Registration Deadline:
-                17th September, 2021</p>
-            </div>
-            <div>
-                <img src="Cyber Security.jpg" width="230">
+            <article class="event">
+              <img src="event1.jpeg" >
+              <div>
+                <h3>Online Short Courses</h3>
+                <p>20th August, 2020</p>
+                <p>Registration Deadline:
+                 17th September, 2021</p>
+              </div>
+            </article>
+           
+            <article class="event">
+              <img src="Cyber Security.jpg">
+              <div>
                 <h3>Global CyberTech Workshop</h3>
                 <p>2nd & 3rd December, 2021</p>
-                <p>Time: 8:30 am - 3:30 pm </p>
+            
                 <p>Venue: Computer Science Department - University of Ghana</p>
             </div>
-            <div>
-                <img src="event3.jpeg" width="230">
+            </article>
+            
+          
+            <article class="event">
+              <img src="event3.jpeg">
+              <div>
                 <h3>BECOMING A WORLD CLASS SOFTWARE ENGINEER</h3>
                 <p>20th August, 2020</p>
                 <p>Venue - Software Lab</p>
 
             </div>
+            </article>
+           
         </div>
-        <script src="" async defer></script>
+        <footer> 
+          <div class="footer"> 
+              <div class="contactus"> 
+                  <h2>Contact Us</h2> 
+                  <div class="Phone and email">  
+                      <h2>Phone & Email</h2> 
+                      <p>&#9743; +233 501 382 035</p> 
+                      <p>&#9743; +233 559 145 698</p> 
+                      <p>&#128231; dcs@ug.edu.gh</p> 
+                  </div> 
+                  <div class="location"> 
+                  <h2>Location</h2> 
+                  <p>University Of Ghana, Legon Campus</p> 
+                  <p>Opposite Mathematics Department</p> 
+                  </div> 
+              </div>  
+              <div class="about"> 
+                  <h2>About the Department</h2> 
+                  <p>Introducing DCS</p> 
+                  <p>Faculty</p> 
+                  <p>News and Event</p> 
+              </div> 
+              <div class="admission"> 
+                  <h2>Admission</h2> 
+                  <p>Undergraduate</p> 
+                  <p>Graduate</p> 
+                  <p>Post Graduate</p> 
+                  <p>International Students</p> 
+                  <p>Entry Requirement</p> 
+              </div> 
+          </div> 
+      </footer> 
     </body>
 </html>
