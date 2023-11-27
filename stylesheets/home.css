@@ -80,8 +80,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #BD9C6C;
     border-radius: 10px;
+    background-color: rgb(227, 235, 238);
 }
 
 .navButton{
@@ -95,7 +95,7 @@ nav{
 
 .coursesOverview {
     width: 95%;
-    margin: 10px auto;
+    margin: 100px auto;
     display: flex;
     flex-wrap: wrap-reverse;
     align-items: center;
@@ -148,7 +148,7 @@ hr {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-evenly; 
-    background-color: #BD9C6C; 
+  
     padding: 20px; 
     border-radius: 20px; 
     margin: 20px auto; 
@@ -161,7 +161,7 @@ hr {
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-    background-color: cornsilk;
+    background-color: rgb(153, 153, 187);
 }
 
 .course-item button{
@@ -197,7 +197,7 @@ hr {
 .text {
     width: 40%;
     border-radius: 5%;
-    background-color: cornsilk;
+    background-color: rgb(153, 153, 187);
     border-style: block;
     padding: 20px;
     margin-top: 20px;
@@ -245,7 +245,7 @@ button {
 }
 
 .useful-resource{
-    background-color: cornsilk;
+    background-color:rgb(205, 205, 230);
     border-radius: 10px;
     padding: 10px;
     margin-top: 50px;
