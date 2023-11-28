@@ -78,11 +78,13 @@ Regularly update your local copy with changes from the remote repository using t
 # GRAD -MPHIL/MSC
 ![Alt text](images/gramphilmscpng.png)
 
+# GRAD -PhD 
+![Alt text](images/phd.png)
 
 # WHAT I LEARNT
-I have learnt how to debug code 
-I also learnt the important skill of using git
-I also improved my skill in html and css
+* I have learnt how to debug code 
+* I also learnt the important skill of using git
+* I also improved my skill in html and css
 
 
 
