@@ -42,3 +42,47 @@ Begin working on the website by editing files in the code editor.
 Update the Project:
 
 Regularly update your local copy with changes from the remote repository using the integrated terminal.
+
+# SCREENSHOTS OF WEBSITE
+# HOME
+(![homepage](images/Home-1.png))
+(![Alt text](images/home2.png))
+(![Alt text](images/home3.png))
+
+# ABOUT
+![Alt text](images/About1.png)
+![Alt text](images/about2.png)
+
+# ADMISSION
+![Alt text](images/admission.png)
+
+# EVENTS
+![Alt text](images/Event1.png)
+![Alt text](images/event2.png)
+
+# FACULTY
+![Alt text](images/faculty.png)
+
+
+# CONTACT US
+![Alt text](images/contact2.png)
+![Alt text](images/contact3.png)
+
+# SHORT COURSES
+![Alt text](images/ShortCourses.png)
+
+# UNDERGRAD
+![Alt text](images/UNDERGRAD1.png)
+![Alt text](images/Undergrad2.png)
+
+# GRAD -MPHIL/MSC
+![Alt text](images/gramphilmscpng.png)
+
+
+# WHAT I LEARNT
+I have learnt how to debug code 
+I also learnt the important skill of using git
+I also improved my skill in html and css
+
+
+

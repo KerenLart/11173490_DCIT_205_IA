@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title></title> 
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="stylesheets/home.css">
@@ -12,13 +12,13 @@
         <header>
             <img class="logo" src="images/logo.png" alt="logo of department">
             <nav>
-                <button class="navButton">Home</button>
+                <a href="home.html"><button class="navButton">Home</button></a>
                 <a href="about.html"><button class="navButton">About</button></a>
-                <a href="#catalog"></a><button class="navButton">Catalog</button></a>
-                <button class="navButton">Admission</button>
-                <button class="navButton">Events</button>
-                <button class="navButton">Contact</button>
-                <button class="navButton">Research</button>
+                <button class="navButton"><a href="#catalog">Catalog</a></button>
+                <a href="admission.html"><button class="navButton">Admission</button></a>
+                <a href="event.html"><button class="navButton">Events</button></a>
+                <a href="contact.html"><button class="navButton">Contact</button></a>
+                <a href="faculty.html"><button class="navButton">Faculty</button></a>
             </nav>
         </header>
         <div class="coursesOverview">
@@ -45,7 +45,7 @@
                 <div class="course-item">
                     <h3>Undergraduate Programs</h3>
                     <p>A world class Bachelor of Science degree</p>
-                    <button>Learn More</button>
+                    <a href="undergrad.html"><button>Learn More</button></a>
                 </div>
                 <div class="course-item">
                     <h3>Mphil and Msc Programs</h3>
@@ -76,41 +76,39 @@
                 <div>
                     
                     <img class="resources-image" src ="images/Event.jpg" alt="picture of event board" >
-                    <p class="resources-text">Upcoming Events</p>
+                    <p class="resources-text"><a href="event.html">Events</a></p>
                 </div> 
             </div>   
         </section>
         <footer>
-            <div class="footer">
-                <div class="contactus">
-                    <h2 id="contact">Contact Us</h2>
-                    <div class="Phone and email"> 
-                        <h2>Phone & Email</h2>
-                        <p>&#9743; +233 501 382 035</p>
-                        <p>&#9743; +233 559 145 698</p>
-                        <p>&#128231; dcs@ug.edu.gh</p>
-                    </div>
-                    <div class=""location>
-                    <h2>Location</h2>
-                    <p>University Of Ghana, Legon Campus</p>
-                    <p>Opposite Mathematics Department</p>
-                    </div>
-                </div> 
-                <div class="about">
-                    <h2>About the Department</h2>
-                    <p>Introducing DCS</p>
-                    <p>Faculty</p>
-                    <p>News and Event</p>
+            <div class="contactus">
+                <h2 id="contact">Contact Us</h2>
+                <div class="Phone and email"> 
+                    <p>Phone & Email</p>
+                    <p>&#9743; +233 501 382 035</p>
+                    <p>&#9743; +233 559 145 698</p>
+                    <p>&#128231; dcs@ug.edu.gh</p>
                 </div>
-                <div class="admission">
-                    <h2>Admission</h2>
-                    <p>Undergraduate</p>
-                    <p>Graduate</p>
-                    <p>Post Graduate</p>
-                    <p>International Students</p>
-                    <p>Entry Requirement</p>
+                <div class=""location>
+                <h2>Location</h2>
+                <p>University Of Ghana, Legon Campus</p>
+                <p>Opposite Mathematics Department</p>
                 </div>
+            </div> 
+            <div class="about">
+                <h2>About the Department</h2>
+                <p>Introducing DCS</p>
+                <p>Faculty</p>
+                <p>News and Event</p>
             </div>
-        </footer>
+            <div class="admission">
+                <h2>Admission</h2>
+                <p>Undergraduate</p>
+                <p>Graduate</p>
+                <p>Post Graduate</p>
+                <p>International Students</p>
+                <p>Entry Requirement</p>
+            </div>
+      </footer>
     </body>
 </html>
